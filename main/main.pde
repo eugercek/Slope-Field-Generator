@@ -1,16 +1,19 @@
 Cartesian Cartesian;
 
-void setup(){
-  size(1200, 800);
-  background(255,255,255);
+void setup() {
+  size(800, 800);
+  background(255, 255, 255);
+
+
+  Constants.delta  = 1;
+  Constants.totalStep = 10;
+
+
+
   Cartesian = new Cartesian();
-  
-  Constants.stepSize  = 1;
-  Constants.totalStep = 5;
 }
 
 
-void draw(){
-  fill(0);
-
+void draw() {
+ 
 }
